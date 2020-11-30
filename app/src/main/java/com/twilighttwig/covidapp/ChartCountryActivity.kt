@@ -174,6 +174,7 @@ class ChartCountryActivity : AppCompatActivity() {
                         val barDataSet2=BarDataSet(barEnteries2,"Death")
                         val barDataSet3=BarDataSet(barEnteries3,"Recovered")
                         val barDataSet4=BarDataSet(barEnteries4,"Active")
+
                         barDataSet.setColors(Color.parseColor("#F44336"))
                         barDataSet2.setColors(Color.parseColor("#FFEB3B"))
                         barDataSet3.setColors(Color.parseColor("#03DAC5"))
